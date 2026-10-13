@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first HTML doc</title>
+</head>
+<body>
+    <form >
+        <label for="fname">Enter you first name</label><br>
+        <input type="text" name="fname" id="fname" placeholder="First Name" required><br>
+        <label for="lname">Enter you Last Name</label><br>
+        <input type="text" name="lname" id="lname"placeholder="Last Name" required><br>
+        <label for="email">Mail me</label><br>
+        <input type="email"id="email" name="email" required><br>
+        <label for="phone">Call me</label><br>
+        <input type="tel" name="phone"id="phone" required><br>
+        <label for="gender">Choose your gender</label><br>
+        
+        
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="country">Select country</label><br>
+        <select name="country" id="country">
+            <option value="USA">USA</option>
+            <option value="CANADA">CANADA</option>
+            <option value="AUS">AUS</option>
+            <option value="BAN">BAN</option>
+            
+        </select><br>
+        <input type="checkbox" name="ch" id="ch">
+        <br>
+        <label for="dob">Date of birth</label>
+        <input type="date"id="dob" pattern="[0-9]{1,2}-[A-Za-z]{3}-[0-9]{4}"><br>
+        <label for="address">Enter your address</label><br>
+        <textarea name="address" id="address"></textarea><br>
+        <input type="color" name="cl" id="cl"><br>
+        <label for="ps">Enter you password</label>
+        <input type="password" name="ps" id="ps"placeholder="Enter you password" required><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
